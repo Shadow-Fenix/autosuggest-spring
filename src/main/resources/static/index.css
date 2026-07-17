@@ -1,13 +1,15 @@
-h1{
-    color : #ff8800;
-    height: 50px;
-    width: 500px;
-    background-color: skyblue;
-    text-align: center;
-
-    
+*{
+    margin:0px;
 
 }
-button{
-    background-color: 
+#nav{
+    border-style: solid;
+    border-width:1px;
+    border-color:grey;
+    padding:20px;
+    text-align: center;
+}
+#nav a{
+    padding:0px 20px 0px 20px;
+    text-decoration: none;
 }
