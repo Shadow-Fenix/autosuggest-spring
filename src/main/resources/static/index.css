@@ -42,6 +42,9 @@ body{
     border-style:none;
     background-color: ghostwhite;
 }
+.card button:hover{
+    color: blue;
+}
 .card #img{
     width:350px;
 }
