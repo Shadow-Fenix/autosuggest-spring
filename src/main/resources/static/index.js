@@ -38,7 +38,7 @@ function randomUser(){
     .then(function(data){
         var userData = data.results[0];
 
-        var userImage = document.getElementsByName("img");
+        var userImage = document.getElementById("img");
         userImage.src = userData.picture.large;
 
         var userName = document.getElementById("name");
